@@ -12,12 +12,12 @@ This project delivers an end-to-end data processing pipeline and an **Unsupervis
 
 ## 🏗️ Analytics Pipeline & Architecture
 
-### 1. Data Source Ingestion (Milestone 1)
+### 1. Data Source Ingestion
 The data layer processes two decoupled operational structures via Python:
 - `INT_card_data.csv`: Transaction logs, active limits, fraud flags, and account lifecycle timestamps.
 - `INT_user_data.csv`: Demographics, annual income declarations, and legacy macro leverage profiles.
 
-### 2. Exploratory Data Scrubbing & Pipeline (Milestone 1 & 2)
+### 2. Exploratory Data Scrubbing & Pipeline 
 - **Currency Data Normalization:** Developed custom regex functions to strip local currency formatting (`Rp`, `.`, `,`) and convert string values to numeric metrics.
 - **Missing Value Resolution:** Investigated a 90% missingness rate inside fraud flag structures. Applied logical imputation to `0` since fraud nodes depend entirely on standard transactions.
 - **Data Integrity Constraints:** Cleared multi-character trailing typos in categorical fields (`Jcb` ➔ `JCB`), resolved 31 exact data duplicates, and filtered out expired card portfolios.
@@ -25,7 +25,7 @@ The data layer processes two decoupled operational structures via Python:
 
 ---
 
-## 📊 Multivariate Customer Segmentation Validation (Milestone 3)
+## 📊 Multivariate Customer Segmentation Validation 
 
 To ensure the clustering structure was scientifically resilient, variables like `yearly_income`, `credit_limit`, `total_debt`, `DTI`, and `transaction volumes` were processed through two statistical checkpoints:
 - **Elbow Method (Inertia Plot):** Evaluated cost functions across \(k \in [1, 10]\), identifying a definitive mathematical bend ("elbow") at exactly k=3.
