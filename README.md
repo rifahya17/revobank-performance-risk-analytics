@@ -65,7 +65,7 @@ To ensure the clustering structure was scientifically resilient, variables like 
 │   ├── data_merging_and_financial_kpis.py   # Inner Joins and Core Bank KPI Formulas
 │   └── customer_behavioral_segmentation.py  # Outlier Check, Scaling, and K-Means Clustering
 ├── presentation/
-│   └── (Upload your final PDF/PPT slide deck files here)
+│   └── 📑 **[Download Executive Presentation Slide (PDF)](./presentation/Ecommerce%20analysis%20by%20SQL%20ArHan.pdf)**
 ├── LICENSE                                  # MIT License open-source terms
 └── README.md                                # Master Documentation Profile
 ```
