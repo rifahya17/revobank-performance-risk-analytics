@@ -59,13 +59,16 @@ To ensure the clustering structure was scientifically resilient, variables like 
 ---
 
 ## 📁 Repository Directory Structure
+
 ```text
 ├── notebooks/
 │   ├── data_cleaning_and_preprocessing.py   # Ingestion and Regex Scrubbing Pipeline
 │   ├── data_merging_and_financial_kpis.py   # Inner Joins and Core Bank KPI Formulas
 │   └── customer_behavioral_segmentation.py  # Outlier Check, Scaling, and K-Means Clustering
 ├── presentation/
-│   └── 📑 **[Download Executive Presentation Slide (PDF)](https://github.com/rifahya17/revobank-performance-risk-analytics/blob/main/presentation/reVobank%20analysis%20sales%20performance%202025.pdf)**
 ├── LICENSE                                  # MIT License open-source terms
 └── README.md                                # Master Documentation Profile
 ```
+
+### 📑 Project Deliverable & Visual Slide
+- **[Download RevoBank Executive Presentation (PDF)](https://github.com/rifahya17/revobank-performance-risk-analytics/blob/main/presentation/reVobank%20analysis%20sales%20performance%202025.pdf)**
